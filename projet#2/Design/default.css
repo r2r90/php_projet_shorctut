@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  color: #ee6123;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#hello {
+  background: url(../img/hello.jpg);
+  background-size: cover;
+  height: 60%;
+}
+
+#brands {
+  height: 25%;
+  background-color: #eff7fc;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  height: 15%;
+  text-align: center;
+  font-size: 0.9em;
+ 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 30px;
+}
+
+#logo {
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+input[type="url"] {
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+  padding: 17px 30px;
+  border: none;
+  width: 50%;
+  font-size: 1.3em;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 17px 30px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 3px;
+  background-color: #f77112;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#hello form {
+  text-align: center;
+  margin: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+#result {
+  padding: 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+h3 {
+  margin: 0 auto;
+  color: #ee6123;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.picture {
+  height: 35px;
+  margin: 15px;
+}
+
+#logo_footer {
+  height: 35px;
+  margin: 15px auto;
+}
